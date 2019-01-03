@@ -14,3 +14,29 @@ I am currently developing neural networks for the following short courses:
 
 ### Building Neural Networks with Keras
 > Neural networks are becoming an increasingly important tool in machine learning. In this short course, we demonstrate how to rapidly prototype an artificial neural network (ANN) in Python using the Keras library. We briefly introduce ANNs, including important variations like convolutional networks. Using Keras, students will build their own networks for some basic natural language processing and computer vision tasks.
+
+## Installing requirements for notebooks
+To run these notebooks, you need to install the required libraries from `requirements.txt`. For Anaconda, run
+
+```
+conda install --yes --file requirements.txt
+```
+
+in your terminal while `cd`'d into this directory. If that command doesn't work, you can also try [this workaround](https://stackoverflow.com/a/38609653) from StackOverflow:
+
+```
+while read requirement; do conda install --yes $requirement; done < requirements.txt
+```
+
+To install with `pip`, run
+
+```
+pip install -r requirements.txt
+```
+
+Alternatively, if you're a fan of [Python virtual environments](https://docs.python.org/3/tutorial/venv.html), you can create a virtual environment for these notebooks and install the requirements from `requirements.txt` there. Then, with the environment activated, you can install the virtual environment as a kernel for Jupyter by running the following snippet (credit: [tschundler on StackOverflow](https://stackoverflow.com/a/37891993)):
+
+```
+pip install ipykernel
+python -m ipykernel --user --name workshop-kernel
+```
