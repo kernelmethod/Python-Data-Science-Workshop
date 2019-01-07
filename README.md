@@ -4,7 +4,7 @@
 Notebooks and code for the Spring 2019 Python Data Science Workshop at CU Boulder. Sponsored by the [Laboratory for Interdisciplinary Statistical Analysis (LISA)](https://www.colorado.edu/lab/lisa/).
 
 ## Courses
-I am currently developing neural networks for the following short courses:
+I am currently developing notebooks for the following short courses:
 
 ### Python Data Wrangling
 > This course teaches some of the building blocks for handling data in Python. We will show how to parse and manipulate data using Numpy and Pandas, and perform visualization with Matplotlib. We analyze a real dataset using Scipy, demonstrating how to perform linear regression, confidence interval computation, and other basic statistical tasks.
