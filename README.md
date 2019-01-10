@@ -40,5 +40,5 @@ Alternatively, if you're a fan of [Python virtual environments](https://docs.pyt
 
 ```
 pip install ipykernel
-python -m ipykernel --user --name workshop-kernel
+python -m ipykernel install --user --name workshop-kernel
 ```
