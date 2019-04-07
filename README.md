@@ -84,7 +84,7 @@ python -m ipykernel install --user --name workshop-kernel
 If you have docker installed on your computer, run
 
 ```
-docker build --network=host wshand/python-data-science-workshop
+docker pull wshand/python-data-science-workshop
 ```
 
 This will build and install a Docker container called `wshand/python-data-science-workshop`. You can then run the following to start a Jupyter Notebook server in this container:
