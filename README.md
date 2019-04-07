@@ -36,12 +36,13 @@ For the first workshop, you will need some basic knowledge of Python. It would a
 For the second and third workshops you will also need to understand [numpy](https://docs.scipy.org/doc/numpy/reference/) (which is taught in the first workshop). Knowing [matplotlib](https://matplotlib.org/) is a plus but not required.
 
 ## Required software <a id="required-software"></a>
-In order to participate in this workshop, you have to be able to run a Jupyter Notebook in your web browser. Unless you are using mybinder, you will also need to install some libraries. Below I have provided four methods for running these notebooks and installing the required libriaries:
+In order to participate in this workshop, you have to be able to run a Jupyter Notebook in your web browser. Unless you are using mybinder, you will also need to install some libraries. Below I have provided a few different methods for running these notebooks and installing the required libraries:
 
 1. Using [mybinder](https://mybinder.org)
 2. Using [Anaconda](https://www.anaconda.com/)
 3. By installing Jupyter Notebook through `pip`.
-4. Through [CU Boulder's JupyterHub server](https://curc.readthedocs.io/en/latest/gateways/jupyterhub.html)
+4. With Docker.
+5. Through [CU Boulder's JupyterHub server](https://curc.readthedocs.io/en/latest/gateways/jupyterhub.html)
 
 ### mybinder
 [mybinder](https://mybinder.org) is an online service that will create an environment for you to run the Jupyter Notebook, and then allow you to run that notebook in your browser. **Note**: mybinder may take a little while to load.
@@ -80,6 +81,44 @@ Alternatively, if you're a fan of [Python virtual environments](https://docs.pyt
 pip install ipykernel
 python -m ipykernel install --user --name workshop-kernel
 ```
+
+
+-----------------------------------------------------
+### With Docker
+If you have docker installed on your computer, run
+
+```
+docker build --network=host wshand/python-data-science-workshop
+```
+
+This will build and install a Docker container called `wshand/python-data-science-workshop`. You can then run the following to start a Jupyter Notebook server in this container:
+
+```
+docker run -it --net host wshand/python-data-science-workshop
+```
+
+Then follow the instructions that are printed in your terminal to log in. For instance, if the output of the command above is
+
+```
+docker run --net host -it wshand/python-data-science-workshop
+WARNING: Published ports are discarded when using host network mode
+Executing the command: jupyter notebook
+[I 20:19:17.236 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 20:19:18.242 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.6/site-packages/jupyterlab
+[I 20:19:18.242 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 20:19:18.244 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 20:19:18.244 NotebookApp] The Jupyter Notebook is running at:
+[I 20:19:18.244 NotebookApp] http://(hostname or 127.0.0.1):8888/?token=1234567890abcdefghijklmnopqrstuvwxyz1234567890ab
+[I 20:19:18.245 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:19:18.249 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///home/jovyan/.local/share/jupyter/runtime/nbserver-6-open.html
+    Or copy and paste one of these URLs:
+        http://(hostname or 127.0.0.1):8888/?token=1234567890abcdefghijklmnopqrstuvwxyz1234567890ab
+```
+
+then you could either go to `http://127.0.0.1:8888` and enter `1234567890abcdefghijklmnopqrstuvwxyz1234567890ab` in the "Password or token" field, or you could browse to `http://127.0.0.1:8888/?token=1234567890abcdefghijklmnopqrstuvwxyz1234567890ab` and login immediately.
 
 -----------------------------------------------------
 ### CU Boulder JupyterHub server
