@@ -44,13 +44,13 @@ In order to participate in this workshop, you have to be able to run a Jupyter N
 4. Through [CU Boulder's JupyterHub server](https://curc.readthedocs.io/en/latest/gateways/jupyterhub.html)
 
 ### mybinder
-[mybinder](https://mybinder.org) is an online service that will create an environment for you to run the Jupyter Notebook, and then allow you to run that notebook in your browser. Note that mybinder can take a little while to load.
+[mybinder](https://mybinder.org) is an online service that will create an environment for you to run the Jupyter Notebook, and then allow you to run that notebook in your browser. **Note**: mybinder may take a little while to load.
 
 To use mybinder, click the link below that will direct you to the workshop (1, 2, or 3) that you want.
 
 * **Workshop 1:** Python Data Wrangling: https://mybinder.org/v2/gh/wshand/Python-Data-Science-Workshop/master?filepath=1.%20Introduction%20to%20Data%20Science%20in%20Python.ipynb
 * **Workshop 2:** Intro to Machine Learning in Python with Scikit-learn: https://mybinder.org/v2/gh/wshand/Python-Data-Science-Workshop/master?filepath=2.%20Intro%20to%20Machine%20Learning%20in%20Python%20with%20Scikit-learn.ipynb
-* **Workshop 2:** Building Neural Networks with Keras: https://mybinder.org/v2/gh/wshand/Python-Data-Science-Workshop/master?filepath=3.%20Building%20Neural%20Networks%20with%20Keras.ipynb
+* **Workshop 3:** Building Neural Networks with Keras: https://mybinder.org/v2/gh/wshand/Python-Data-Science-Workshop/master?filepath=3.%20Building%20Neural%20Networks%20with%20Keras.ipynb
 
 -----------------------------------------------------
 ### Anaconda
