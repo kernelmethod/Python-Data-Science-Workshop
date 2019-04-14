@@ -9,23 +9,23 @@ Notebooks and code for the Spring 2019 Python Data Science Workshop at CU Boulde
 
 
 ## Courses <a id="courses"></a>
-**Note**: these workshops are brand-new as of spring 2019. As a result, all of the materials in this repository are still under active development. Currently, the notebook for the scikit-learn workshop is the only one with a complete first draft; the remaining notebooks are still incomplete.
+**Note: these workshops are brand-new as of spring 2019. As a result, all of the materials in this repository are still under active development. Currently there are complete drafts of the notebooks for the first and second workshops.**
 
-I am developing notebooks for the following short courses:
+This repository contains notebooks for the following short courses. Each of these short courses will take place in Norlin E206 at CU Boulder in April.
 
-### Python Data Wrangling
+### Python Data Wrangling (Monday April 15, 2019, 12-2pm)
 > This course teaches some of the building blocks for handling data in Python. We will show how to parse and manipulate data using Numpy and Pandas, and perform interactive visualization with Plotly. We analyze a real dataset using Scipy, demonstrating how to perform basic statistical tasks in Python.
 
 Notebook: [1. Introduction to Data Science in Python.ipynb](https://github.com/wshand/Python-Data-Science-Workshop/blob/master/1.%20Introduction%20to%20Data%20Science%20in%20Python.ipynb)
 
 -----------------------------------------------------
-### Intro to Machine Learning in Python with Scikit-learn
+### Intro to Machine Learning in Python with Scikit-learn (Monday April 22, 2019, 12-2pm)
 > This course introduces the Scikit-learn library for doing machine learning in Python. Students will start by learning about support vector machines, and gradually explore how Scikit-learn allows you to build a full machine learning pipeline, from feature extraction all the way through to prediction.
 
 Notebook: [2. Intro to Machine Learning in Python with Scikit-learn.ipynb](https://github.com/wshand/Python-Data-Science-Workshop/blob/master/2.%20Intro%20to%20Machine%20Learning%20in%20Python%20with%20Scikit-learn.ipynb)
 
 -----------------------------------------------------
-### Building Neural Networks with Keras
+### Building Neural Networks with Keras (Monday April 29, 2019, 12-2pm)
 > Neural networks are becoming an increasingly important tool in machine learning. In this short course, we demonstrate how to rapidly prototype an artificial neural network (ANN) in Python using the Keras library. We briefly introduce ANNs, including important variations like convolutional networks. Using Keras, students will build their own networks for some basic machine learning problems.
 
 Notebook: [3. Building Neural Networks With Keras.ipynb](https://github.com/wshand/Python-Data-Science-Workshop/blob/master/3.%20Building%20Neural%20Networks%20with%20Keras.ipynb)
