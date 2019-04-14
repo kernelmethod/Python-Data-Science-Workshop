@@ -1,7 +1,7 @@
 # Python Data Science Workshop
 ![LISA logo](https://raw.githubusercontent.com/wshand/Python-Data-Science-Workshop/master/assets/LISA_logo_medium.jpg)
 
-Notebooks and code for the Spring 2019 Python Data Science Workshop at CU Boulder. Sponsored by the [Laboratory for Interdisciplinary Statistical Analysis (LISA)](https://www.colorado.edu/lab/lisa/).
+Jupyter Notebooks and code for the Spring 2019 Python Data Science Workshop at CU Boulder. Sponsored by the [Laboratory for Interdisciplinary Statistical Analysis (LISA)](https://www.colorado.edu/lab/lisa/).
 
 * [Courses](#courses)
 * [Workshop pre-requisites](#prereqs)
@@ -11,7 +11,7 @@ Notebooks and code for the Spring 2019 Python Data Science Workshop at CU Boulde
 ## Courses <a id="courses"></a>
 **Note: these workshops are brand-new as of spring 2019. As a result, all of the materials in this repository are still under active development. Currently there are complete drafts of the notebooks for the first and second workshops.**
 
-This repository contains notebooks for the following short courses. Each of these short courses will take place in Norlin E206 at CU Boulder in April.
+This repository contains Jupyter Notebooks for the following short courses. Each of these short courses will take place in Norlin E206 at CU Boulder in April.
 
 ### Python Data Wrangling (Monday April 15, 2019, 12-2pm)
 > This course teaches some of the building blocks for handling data in Python. We will show how to parse and manipulate data using Numpy and Pandas, and perform interactive visualization with Plotly. We analyze a real dataset using Scipy, demonstrating how to perform basic statistical tasks in Python.
