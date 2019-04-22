@@ -58,7 +58,7 @@ To use mybinder, click the link below that will direct you to the workshop (1, 2
 First, if you haven't already, install [Anaconda](https://www.anaconda.com/) on your computer. Then, from your terminal, run
 
 ```
-conda create -n workshop-env -f spec-file.txt
+conda create --name workshop-env --file spec-file.txt
 ```
 
 while `cd`'d into this directory. This will create a new `conda` environment `workshop-env`, which you can activate using `conda activate workshop-env`.
