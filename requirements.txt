@@ -1,17 +1,26 @@
+# Jupyter
 ipywidgets==7.4.2
+ipykernel
+
+# Deep learning
 Keras==2.2.4
-matplotlib==3.0.2
-networkx==2.2
-numpy==1.15.4
-pandas==0.23.4
-Pillow==5.3.0
-plotly==3.7.1
-Pillow==5.3.0
-python-dateutil==2.7.5
-pytz==2018.7
-scikit-learn==0.20.2
-scipy==1.2.0
-seaborn==0.9.0
-statsmodels==0.9.0
 tensorboard==1.13.1
 tensorflow==1.13.1
+
+# General data science, machine learning libraries
+numpy==1.15.4
+pandas==0.23.4
+scikit-learn==0.20.2
+scipy==1.2.0
+statsmodels==0.9.0
+
+# Plotting/image analysis
+matplotlib==3.0.2
+Pillow==5.3.0
+seaborn==0.9.0
+plotly==3.7.1
+
+# Additional utilities
+networkx==2.2
+python-dateutil==2.7.5
+pytz==2018.7
