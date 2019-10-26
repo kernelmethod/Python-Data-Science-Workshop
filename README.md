@@ -81,40 +81,13 @@ python -m ipykernel install --user --name workshop-kernel
 
 -----------------------------------------------------
 ### With Docker
-If you have docker installed on your computer, run
+If you have Docker installed on your computer, you can pull a container image with Jupyter, this workshop's notebooks, and all of their dependencies:
 
 ```
-docker pull wshand/python-data-science-workshop
+docker pull -p 8888:8888 wshand/python-data-science-workshop
 ```
 
-This will build and install a Docker container called `wshand/python-data-science-workshop`. You can then run the following to start a Jupyter Notebook server in this container:
-
-```
-docker run -it --net host wshand/python-data-science-workshop
-```
-
-Then follow the instructions that are printed in your terminal to log in. For instance, if the output of the command above is
-
-```
-docker run --net host -it wshand/python-data-science-workshop
-WARNING: Published ports are discarded when using host network mode
-Executing the command: jupyter notebook
-[I 20:19:17.236 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
-[I 20:19:18.242 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.6/site-packages/jupyterlab
-[I 20:19:18.242 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
-[I 20:19:18.244 NotebookApp] Serving notebooks from local directory: /home/jovyan
-[I 20:19:18.244 NotebookApp] The Jupyter Notebook is running at:
-[I 20:19:18.244 NotebookApp] http://(hostname or 127.0.0.1):8888/?token=1234567890abcdefghijklmnopqrstuvwxyz1234567890ab
-[I 20:19:18.245 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 20:19:18.249 NotebookApp]
-
-    To access the notebook, open this file in a browser:
-        file:///home/jovyan/.local/share/jupyter/runtime/nbserver-6-open.html
-    Or copy and paste one of these URLs:
-        http://(hostname or 127.0.0.1):8888/?token=1234567890abcdefghijklmnopqrstuvwxyz1234567890ab
-```
-
-then you could either go to `http://127.0.0.1:8888` and enter `1234567890abcdefghijklmnopqrstuvwxyz1234567890ab` in the "Password or token" field, or you could browse to `http://127.0.0.1:8888/?token=1234567890abcdefghijklmnopqrstuvwxyz1234567890ab` and login immediately.
+Execute `docker run -it wshand/python-data-science-workshop` to start the notebook. The printout to your terminal will provide you with a token with which you can log into the Jupyter server at `127.0.0.1:8888`.
 
 -----------------------------------------------------
 ### CU Boulder JupyterHub server
