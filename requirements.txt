@@ -18,3 +18,4 @@ statsmodels
 matplotlib
 Pillow
 seaborn
+plotly
