@@ -9,8 +9,6 @@ Jupyter Notebooks and code for the Spring 2019 Python Data Science Workshop at C
 
 
 ## Courses <a id="courses"></a>
-**Note: these workshops are brand-new as of spring 2019. As a result, all of the materials in this repository are still under active development. Currently there are complete drafts of the notebooks for the first and second workshops.**
-
 This repository contains Jupyter Notebooks for the following short courses:
 
 ### Python Data Wrangling
