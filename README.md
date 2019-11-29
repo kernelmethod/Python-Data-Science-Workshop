@@ -42,6 +42,7 @@ In order to participate in this workshop, you have to be able to run a Jupyter N
 4. With Docker.
 5. Through [CU Boulder's JupyterHub server](https://curc.readthedocs.io/en/latest/gateways/jupyterhub.html)
 
+-----------------------------------------------------
 ### mybinder
 [mybinder](https://mybinder.org) is an online service that will create an environment for you to run the Jupyter Notebook, and then allow you to run that notebook in your browser. **Note**: mybinder may take a little while to load.
 
