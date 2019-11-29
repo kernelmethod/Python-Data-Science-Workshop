@@ -1,5 +1,5 @@
 # Python Data Science Workshop
-![LISA logo](https://raw.githubusercontent.com/wshand/Python-Data-Science-Workshop/master/assets/LISA_logo_medium.jpg)
+![LISA logo](https://raw.githubusercontent.com/kernelmethod/Python-Data-Science-Workshop/master/assets/LISA_logo_medium.jpg)
 
 Jupyter Notebooks and code for the Spring 2019 Python Data Science Workshop at CU Boulder. Sponsored by the [Laboratory for Interdisciplinary Statistical Analysis (LISA)](https://www.colorado.edu/lab/lisa/).
 
@@ -14,19 +14,19 @@ This repository contains Jupyter Notebooks for the following short courses:
 ### Python Data Wrangling
 > This course teaches some of the building blocks for handling data in Python. We will show how to parse and manipulate data using Numpy and Pandas, and perform interactive visualization with Plotly. We analyze a real dataset using Scipy, demonstrating how to perform basic statistical tasks in Python.
 
-Notebook: [1. Introduction to Data Science in Python.ipynb](https://github.com/wshand/Python-Data-Science-Workshop/blob/master/1.%20Introduction%20to%20Data%20Science%20in%20Python.ipynb)
+Notebook: [1. Introduction to Data Science in Python.ipynb](https://github.com/kernelmethod/Python-Data-Science-Workshop/blob/master/1.%20Introduction%20to%20Data%20Science%20in%20Python.ipynb)
 
 -----------------------------------------------------
 ### Intro to Machine Learning in Python with Scikit-learn
 > This course introduces the Scikit-learn library for doing machine learning in Python. Students will start by learning about support vector machines, and gradually explore how Scikit-learn allows you to build a full machine learning pipeline, from feature extraction all the way through to prediction.
 
-Notebook: [2. Intro to Machine Learning in Python with Scikit-learn.ipynb](https://github.com/wshand/Python-Data-Science-Workshop/blob/master/2.%20Intro%20to%20Machine%20Learning%20in%20Python%20with%20Scikit-learn.ipynb)
+Notebook: [2. Intro to Machine Learning in Python with Scikit-learn.ipynb](https://github.com/kernelmethod/Python-Data-Science-Workshop/blob/master/2.%20Intro%20to%20Machine%20Learning%20in%20Python%20with%20Scikit-learn.ipynb)
 
 -----------------------------------------------------
 ### Building Neural Networks with Keras
 > Neural networks are becoming an increasingly important tool in machine learning. In this short course, we demonstrate how to rapidly prototype an artificial neural network (ANN) in Python using the Keras library. We briefly introduce ANNs, including important variations like convolutional networks. Using Keras, students will build their own networks for some basic machine learning problems.
 
-Notebook: [3. Building Neural Networks With Keras.ipynb](https://github.com/wshand/Python-Data-Science-Workshop/blob/master/3.%20Building%20Neural%20Networks%20with%20Keras.ipynb)
+Notebook: [3. Building Neural Networks With Keras.ipynb](https://github.com/kernelmethod/Python-Data-Science-Workshop/blob/master/3.%20Building%20Neural%20Networks%20with%20Keras.ipynb)
 
 ## Workshop pre-requisites <a id="prereqs"></a>
 For the first workshop, you will need some basic knowledge of Python. It would also help to have at least a little familiarity with Jupyter Notebook (e.g. you should know how to run code cells).
@@ -48,9 +48,9 @@ In order to participate in this workshop, you have to be able to run a Jupyter N
 
 To use mybinder, click the link below that will direct you to the workshop (1, 2, or 3) that you want.
 
-* **Workshop 1:** Python Data Wrangling: https://mybinder.org/v2/gh/wshand/Python-Data-Science-Workshop/master?filepath=1.%20Introduction%20to%20Data%20Science%20in%20Python.ipynb
-* **Workshop 2:** Intro to Machine Learning in Python with Scikit-learn: https://mybinder.org/v2/gh/wshand/Python-Data-Science-Workshop/master?filepath=2.%20Intro%20to%20Machine%20Learning%20in%20Python%20with%20Scikit-learn.ipynb
-* **Workshop 3:** Building Neural Networks with Keras: https://mybinder.org/v2/gh/wshand/Python-Data-Science-Workshop/master?filepath=3.%20Building%20Neural%20Networks%20with%20Keras.ipynb
+* **Workshop 1:** Python Data Wrangling: https://mybinder.org/v2/gh/kernelmethod/Python-Data-Science-Workshop/master?filepath=1.%20Introduction%20to%20Data%20Science%20in%20Python.ipynb
+* **Workshop 2:** Intro to Machine Learning in Python with Scikit-learn: https://mybinder.org/v2/gh/kernelmethod/Python-Data-Science-Workshop/master?filepath=2.%20Intro%20to%20Machine%20Learning%20in%20Python%20with%20Scikit-learn.ipynb
+* **Workshop 3:** Building Neural Networks with Keras: https://mybinder.org/v2/gh/kernelmethod/Python-Data-Science-Workshop/master?filepath=3.%20Building%20Neural%20Networks%20with%20Keras.ipynb
 
 -----------------------------------------------------
 ### Anaconda
